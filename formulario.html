@@ -1,0 +1,54 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="formulario">
+        <form action="" method="get" onsubmit=" return validar()">
+                <div class="input">
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="input">
+                    <label for="user"></label>
+                    <input type="text" name="user" id="user" placeholder="Digite seu Usúario">
+                </div>
+                <div class="input">
+                    <label for="senha"></label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+                <div class="input">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="xxxx@xxxxxxx">
+                </div>
+                <div class="input">
+                    <label for="tel"></label>
+                    <input type="text" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx">
+                </div>
+                <div class="input">
+                    <label for="dtnasc"></label>
+                    <input type="date" name="dtnasc" id="dtnasc" placeholder="dd/11/yyyy">
+                </div>
+                <div class="input">
+
+                    <input type="radio" name="sexo" id="masc" value="0">
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="sexo" id="fem" value="1">
+                    <label for="fem">Femenino</label>
+                </div>
+                <div class="botao">
+				<button class="button" type="submit">Enviar</button>
+				 <a href="paginainicial.html" class="button2">voltar</a>
+                </div>
+            </form>
+
+    </div>
+
+</body>
+</html>
